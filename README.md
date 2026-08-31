@@ -1,4 +1,4 @@
-# BookAI 官网（GitHub Pages）
+# 书语（BookWhisper）官网（GitHub Pages）
 
 纯静态营销站：落地页 + 隐私政策 + 用户协议。零构建、零依赖，改完直接传。
 
@@ -27,7 +27,7 @@ website/
 cd website
 git init
 git add .
-git commit -m "BookAI 官网"
+git commit -m "书语 BookWhisper 官网"
 git branch -M main
 git remote add origin https://github.com/<用户名>/<用户名>.github.io.git
 git push -u origin main
@@ -47,7 +47,7 @@ git push -u origin main
 
 ## 想用自定义域名（可选）
 
-在仓库根目录放一个 `CNAME` 文件，内容写你的域名（如 `bookai.app`），
+在仓库根目录放一个 `CNAME` 文件，内容写你的域名（如 `bookwhisper.app`），
 再到域名商把该域名加一条 **CNAME 记录指向 `<用户名>.github.io`**。
 注意：GitHub Pages 服务器在海外，国内访问可能偏慢，且无需（也无法）ICP 备案。
 
@@ -55,5 +55,5 @@ git push -u origin main
 
 - 隐私政策 URL → `https://<你的域名>/privacy.html`
 - 用户协议 URL → `https://<你的域名>/terms.html`
-- 目前支持邮箱 `support@bookai.app` 是占位，上线前替换成真实邮箱
+- 目前支持邮箱 `support@bookwhisper.app` 是占位，上线前替换成真实邮箱
   （`index.html`、`privacy.html`、`terms.html` 各有一处）。
